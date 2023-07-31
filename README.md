@@ -21,20 +21,13 @@ Here are some visual resources to help you better understand the app:
 
 #### LightMode
 
-![Screenshot Light_1](screenshots/LightMode/1.png)
-![Screenshot Light_2](screenshots/LightMode/2.png)
-![Screenshot Light_3](screenshots/LightMode/3.png)
-![Screenshot Light_4](screenshots/LightMode/4.png)
+<img src="screenshots/LightMode/1.png " width=20% height=30%> <img src="screenshots/LightMode/2.png " width=20% height=30%> <img src="screenshots/LightMode/3.png " width=20% height=30%> <img src="screenshots/LightMode/4.png " width=20% height=30%>
+
+
 
 #### DarkMode
 
-![Screenshot Dark_1](screenshots/DarkMode/1.png)
-![Screenshot Dark_2](screenshots/DarkMode/2.png)
-![Screenshot Dark_3](screenshots/DarkMode/3.png)
-![Screenshot Dark_4](screenshots/DarkMode/4.png)
-
-
-
+<img src="screenshots/DarkMode/1.png " width=20% height=30%> <img src="screenshots/DarkMode/2.png " width=20% height=30%> <img src="screenshots/DarkMode/3.png " width=20% height=30%> <img src="screenshots/DarkMode/4.png " width=20% height=30%>
 
 ## Installation
 
@@ -51,7 +44,7 @@ To run the ToDo App on your local machine, follow these steps:
 3. Navigate to the project directory:
 
    ```
-   cd attendance
+   cd AttendanceManagerr
    ```
 
 4. Fetch the required dependencies by executing the following command:
