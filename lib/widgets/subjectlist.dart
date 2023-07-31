@@ -13,12 +13,12 @@ class SubjectList extends StatefulWidget {
   State<SubjectList> createState() => _SubjectListState();
 }
 
-var latesttap = "";
+//var latesttap = "";
 
 class _SubjectListState extends State<SubjectList> {
   void _classAttended(Subject sub) {
     setState(() {
-      latesttap = "YES";
+      sub.latesttap = "YES";
       sub.classAttended++;
       sub.totalClasses++;
       sub.percentage = (sub.classAttended / sub.totalClasses) * 100;
@@ -27,14 +27,14 @@ class _SubjectListState extends State<SubjectList> {
 
   void _classNotAttended(Subject sub) {
     setState(() {
-      latesttap = "NO";
+      sub.latesttap = "NO";
       sub.totalClasses++;
       sub.percentage = (sub.classAttended / sub.totalClasses) * 100;
     });
   }
 
   void byMistake(Subject sub) {
-    if (latesttap == "YES") {
+    if (sub.latesttap == "YES") {
       setState(() {
         sub.classAttended--;
         sub.totalClasses--;
@@ -42,10 +42,10 @@ class _SubjectListState extends State<SubjectList> {
         sub.percentage = (sub.classAttended / sub.totalClasses) * 100;
         if (sub.totalClasses == 0 && sub.classAttended == 0) sub.percentage = 0;
 
-        latesttap = "";
+        sub.latesttap = "";
       });
     }
-    if (latesttap == "NO") {
+    if (sub.latesttap == "NO") {
       setState(() {
         if (sub.totalClasses > 0) {
           sub.totalClasses--;
@@ -55,7 +55,7 @@ class _SubjectListState extends State<SubjectList> {
                  sub.percentage = 0;
           }
             
-          latesttap = "";
+          sub.latesttap = "";
         }
       });
     }
