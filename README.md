@@ -19,9 +19,20 @@ Here are some visual resources to help you better understand the app:
 
 ### Screenshots
 
-![Screenshot 1](screenshots/1.jpg)
-![Screenshot 2](screenshots/2.jpg)
-![Screenshot 3](screenshots/3.jpg)
+#### LightMode
+
+![Screenshot Light_1](screenshots/LightMode/1.png)
+![Screenshot Light_2](screenshots/LightMode/2.png)
+![Screenshot Light_3](screenshots/LightMode/3.png)
+![Screenshot Light_4](screenshots/LightMode/4.png)
+
+#### DarkMode
+
+![Screenshot Dark_1](screenshots/DarkMode/1.png)
+![Screenshot Dark_2](screenshots/DarkMode/2.png)
+![Screenshot Dark_3](screenshots/DarkMode/3.png)
+![Screenshot Dark_4](screenshots/DarkMode/4.png)
+
 
 
 
